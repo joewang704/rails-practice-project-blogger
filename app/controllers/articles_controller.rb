@@ -12,6 +12,9 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
+    # @tag = Tag.new;
+    # @tag.article_id = @article_id
+    # @article.tag_id = @tag_id
   end
 
   def create
